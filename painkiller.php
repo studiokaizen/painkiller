@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Painkiller
- * Plugin URI:        https://kaizendesignstudio.com
+ * Plugin URI:        https://github.com/studiokaizen/painkiller
  * Description:       Security and performance cleanup tweaks.
  * Version:           1.0.0
  * Requires at least: 6.0
