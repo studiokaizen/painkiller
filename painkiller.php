@@ -341,22 +341,3 @@ function painkiller_discourage_search_engine_indexing() {
 }
 
 add_filter( 'pre_option_blog_public', 'painkiller_discourage_search_engine_indexing' );
-
-/**
- * Customize the admin footer text.
- *
- * @since 1.0.0
- *
- * @return string
- */
-function painkiller_admin_footer_text() {
-	$text = sprintf(
-		/* translators: %s: https://codeartisan.in */
-		__( 'Designed and Developed by <a href="%s" target="_blank">Code Artisan</a>', 'painkiller' ),
-		__( 'https://codeartisan.in', 'painkiller' )
-	);
-
-	return '<span id="footer-thankyou">' . $text . '</span>';
-}
-
-add_filter( 'admin_footer_text', 'painkiller_admin_footer_text', 99 );
